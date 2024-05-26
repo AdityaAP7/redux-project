@@ -50,16 +50,17 @@ const products = [
 const Home =()=>{
     return(
         <div>
-            <div>
+          
                 <Cart/>
-            </div>
-            {
-                products.map((product,index)=>{
+            
+                <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+              {  products.map((product,index)=>{
                  return  ( 
                      <Products products={product.name} price={product.price}/>)
 
-                })
-            }
+                })}
+          
+          </div>
          
         </div>
     )
