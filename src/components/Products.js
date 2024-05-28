@@ -16,7 +16,7 @@ function Products({products,price}) {
     </div>
   )
 }
-1
+
 2
 3
 4
