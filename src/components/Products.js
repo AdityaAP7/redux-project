@@ -19,7 +19,6 @@ function Products({products,price}) {
 o
 o
 o
-o
 ololi
 o
 o
