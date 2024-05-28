@@ -16,8 +16,6 @@ function Products({products,price}) {
     </div>
   )
 }
-
-9
 o
 o
 o
