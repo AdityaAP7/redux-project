@@ -16,5 +16,29 @@ function Products({products,price}) {
     </div>
   )
 }
+1
+2
+3
+4
+5
+6
+7
+8
+9
+o
+o
+o
+o
+ololi
+o
+o
+o
+o
+o
+o
+olo
+olo
+opo
+
 
 export default Products
