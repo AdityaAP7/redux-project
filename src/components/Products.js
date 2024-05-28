@@ -17,7 +17,7 @@ function Products({products,price}) {
   )
 }
 
-4
+
 5
 6
 7
