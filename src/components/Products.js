@@ -1,9 +1,4 @@
 1
-w
-
-
-
-
 
 import React from 'react'
 
