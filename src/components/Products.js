@@ -1,3 +1,28 @@
+1
+w
+e
+r
+
+r
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+
+s
+s
+
+
+
+
+
 import React from 'react'
 
 function Products({products,price}) {
