@@ -1,3 +1,21 @@
+1
+w
+e
+r
+f
+f
+g
+f
+
+f
+f
+f
+f
+f
+
+
+
+
 import React from "react"
 import Products from "./Products";
 import Cart from "./Cart";
