@@ -1,5 +1,4 @@
 1
-w
 import React from "react"
 import Products from "./Products";
 import Cart from "./Cart";
