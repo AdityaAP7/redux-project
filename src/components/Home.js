@@ -1,8 +1,6 @@
 1
 w
 e
-r
-
 
 
 import React from "react"
