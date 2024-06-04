@@ -3,7 +3,6 @@ import Products from "./Products";
 import Cart from "./Cart";
 1
 w
-e
 const products = [
     {
       name: "Aurora Smartphone",
