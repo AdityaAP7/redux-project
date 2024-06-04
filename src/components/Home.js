@@ -13,7 +13,6 @@ e
 e
 
 ee
-e
 const products = [
     {
       name: "Aurora Smartphone",
