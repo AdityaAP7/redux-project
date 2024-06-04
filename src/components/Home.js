@@ -1,7 +1,19 @@
 import React from "react"
 import Products from "./Products";
 import Cart from "./Cart";
+1
+w
+e
+e
+e
 
+e
+
+e
+e
+
+ee
+e
 const products = [
     {
       name: "Aurora Smartphone",
