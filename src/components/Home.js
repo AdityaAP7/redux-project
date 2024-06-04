@@ -4,7 +4,6 @@ import Cart from "./Cart";
 1
 w
 e
-e
 const products = [
     {
       name: "Aurora Smartphone",
