@@ -69,8 +69,6 @@ const products = [
 8
 8
 
-8
-
 const Home =()=>{
     return(
         <div>
