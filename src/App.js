@@ -6,7 +6,7 @@ import Home from "./components/Home";
 function App() {
   2
   
-  5
+  
   6
   6
   6
