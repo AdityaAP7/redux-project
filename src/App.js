@@ -7,8 +7,7 @@ function App() {
   2
   
   
-  
-  6
+
   
   
   
