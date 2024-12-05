@@ -18,7 +18,6 @@ function App() {
   6
   6
   6
-  66
   6
   
   
