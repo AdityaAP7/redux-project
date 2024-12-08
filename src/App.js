@@ -4,13 +4,7 @@ import User from "./components/User";
 import Home from "./components/Home";
 
 function App() {
-  2
-  
-  
 
-  
-  1
-  
 
   return (
     <div className="App">
