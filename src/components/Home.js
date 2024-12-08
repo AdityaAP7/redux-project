@@ -56,7 +56,6 @@ const products = [
 7
 7
 8
-9
 
 
 const Home =()=>{
