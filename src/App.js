@@ -14,8 +14,6 @@ function App() {
   11
   1
   1
-  1
-
 
   return (
     <div className="App">
