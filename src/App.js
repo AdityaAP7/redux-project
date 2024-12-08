@@ -13,7 +13,6 @@ function App() {
   1
   11
   1
-  1
 
   return (
     <div className="App">
