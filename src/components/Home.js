@@ -55,7 +55,24 @@ const products = [
 6
 7
 7
+const Home =()=>{
+    return(
+        <div>
+          
+                <Cart/>
+            
+                <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+              {  products.map((product,index)=>{
+                 return  ( 
+                     <Products products={product.name} price={product.price}/>)
 
+                })}
+          
+          </div>
+         
+        </div>
+    )
+}
 
 const Home =()=>{
     return(
