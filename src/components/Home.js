@@ -2,7 +2,7 @@ import React from "react"
 import Products from "./Products";
 import Cart from "./Cart";
 1
-23456
+234567
 w
 const products = [
     {
