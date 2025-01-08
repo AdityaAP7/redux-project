@@ -9,6 +9,9 @@ function Products({products,price}) {
     <p>{price}</p>
     <div style={{display:'flex',alignItems:"center",justifyContent:"center"}}>
 
+  <img  style={{width:"100px",height:"100px",backgroundColor:"red",marginTop:"50px"}}/>
+    <div>{products}</div>
+    <p>{price}</p>
     <div style={{width:"80%",display:'flex',ustifyContent:"space-between"}}> <button>Add to cart</button>
     <button>Remove from cart</button></div>
     </div>
