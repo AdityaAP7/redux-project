@@ -33,7 +33,10 @@ const cartReducer = (state = initialState, action) => {
       };
     default:
       return state;
-  }
+  }const removeFromCart = (itemId) => ({
+  type: REMOVE_FROM_CART,
+  payload: itemId
+});
 };
 
 // Example usage
