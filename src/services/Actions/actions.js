@@ -90,7 +90,13 @@ export const removeFromCart =(data)=>{
     }
 }
 
-export const removeFromCart =(data)=>{
+export const removeFromCart =(data)=>{export const removeFromCart =(data)=>{
+    return {
+        type:"REMOVE_FROM_CART",
+        data:data
+    }
+} const removeFromCart =(data)=>{
+    return {
     return {
         type:"REMOVE_FROM_CART",
         data:data
