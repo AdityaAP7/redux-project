@@ -6,7 +6,8 @@ const initialState = {
 // Action types
 const ADD_TO_CART = 'ADD_TO_CART';
 const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
-
+const ADD_TO_CART = 'ADD_TO_CART';
+const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
 // Action creators
 const addToCart = (item) => ({
   type: ADD_TO_CART,
