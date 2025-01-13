@@ -55,7 +55,8 @@ const cartReducer = (state = initialState, action) => {
   type: REMOVE_FROM_CART,
   payload: itemId
 
-// Example usage
+// Example usageaction.payload]
+      };return state;
 const store = Redux.createStore(cartReducer);
 
 // Dispatching actions
