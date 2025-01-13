@@ -38,7 +38,11 @@ const cartReducer = (state = initialState, action) => {
 const cartReducer = (state = initialState, action) => {
   switch (action.type){
     case ADD_TO_CART:
-      return {
+      return {return {// Reducer function
+const cartReducer = (state = initialState, action) => {
+  switch (action.type) type: REMOVE_FROM_CART,
+  payload: itemId
+});
         ...state,
         cartItems: [...state.cartItems, action.payload]
       };return state;
