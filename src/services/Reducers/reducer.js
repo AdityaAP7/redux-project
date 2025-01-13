@@ -72,6 +72,9 @@ const store = Redux.createStore(cartReducer);
 store.dispatch(addToCart({ id: 1, name: 'Product 1', price: 10 }));
 store.dispatch(addToCart({ id: 2, name: 'Product 2', price: 20 }));
 console.log(store.getState()); // Output: { cartItems: [{ id: 1, name: 'Product 1', price: 10 }, { id: 2, name: 'Product 2', price: 20 }] }
-
+const removeFromCart = (itemId) => ({
+  type: REMOVE_FROM_CART,
+  payload: itemId
+action.payload)
 store.dispatch(removeFromCart(1));
 console.log(store.getState()); // Output: { cartItems: [{ id: 2, name: 'Product 2', price: 20 }] }
