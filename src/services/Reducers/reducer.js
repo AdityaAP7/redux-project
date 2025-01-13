@@ -71,7 +71,11 @@ action.payload)
   type: REMOVE_FROM_CART,
   payload: itemId
 });
-};return state;
+};return state;action.payload]
+      };
+    case REMOVE_FROM_CART:
+      return {// Reducer function
+const cartReducer = (state = initialState, action) => {
   }const removeFromCart = (itemId) => ({
   type: REMOVE_FROM_CART,
   payload: itemId
