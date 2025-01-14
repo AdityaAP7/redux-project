@@ -81,7 +81,11 @@ action.payload)
   payload: itemId
 });
 };return state;action.payload]
-      };
+      };const cartReducer = (state = initialState, action) => {
+  }const removeFromCart = (itemId) => ({
+  type: REMOVE_FROM_CART,
+  payload: itemId
+action.payload)
     case REMOVE_FROM_CART:
       return {// Reducer function
 const cartReducer = (state = initialState, action) => {
