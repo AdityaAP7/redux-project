@@ -43,7 +43,16 @@ const cartReducer = (state = initialState, action) => {
   switch (action.type) type: REMOVE_FROM_CART,
   payload: itemIdREMOVE_FROM_CART = 'REMOVE_FROM_CART';
 const ADD_TO_CART = 'ADD_TO_CART';
-const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+const REMOVE_FROM_CART = 'REMOVE_FROM_CART';    cartItems: state.cartItems.filter(item => item.id !== action.payload)
+      };  case REMOVE_FROM_CART:
+      return {
+        ...state,payload: itemId
+action.payload)
+      };  case REMOVE_FROM_CART:
+      return {
+        ...state,
+    default:
+      return state;
 // Action creators
 const addToCart = (item) 
 });
