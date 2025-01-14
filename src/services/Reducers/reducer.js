@@ -87,7 +87,10 @@ action.payload)
   payload: itemId
 action.payload)
     case REMOVE_FROM_CART:
-      return {// Reducer function
+      return {// Reducer function Example usageaction.payload]
+      };return state;
+const store =console.log(store.getState()); // Output: { cartItems: [{ id: 1, name: 'Product 1', price: 10 }, { id: 2, name: 'Product 2', price: 20 }] }
+const removeFromCart = (itemId) => ({
 const cartReducer = (state = initialState, action) => {
   }const removeFromCart = (itemId) => ({
   type: REMOVE_FROM_CART,
