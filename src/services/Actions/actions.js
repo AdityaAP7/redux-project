@@ -64,7 +64,12 @@ export const removeFromCart =(data)=>{
 }export const removeFromCart =(data)=>{
     return {
         type:"REMOVE_FROM_CART",
+        data:data} const removeFromCart =(data)=>{
+    return {
         data:data
+    }
+}export const removeFromCart =(data)=>{
+    return {
     }
 } const removeFromCart =(data)=>{
     return {
