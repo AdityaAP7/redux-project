@@ -68,7 +68,11 @@ export const removeFromCart =(data)=>{
     }
 } const removeFromCart =(data)=>{
     return {
-
+        data:data
+    }
+}export const removeFromCart =(data)=>{
+    return {
+        type:"REMOVE_
 export const removeFromCart =(data)=>{
     return {
         type:"REMOVE_FROM_CART",
