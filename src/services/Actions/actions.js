@@ -11,3 +11,9 @@ export const removeFromCart = (data) => {
     data: data,
   };
 };
+export const addToWishList = (data) => {
+  return {
+    type: "ADD_TO_WISHLIST",
+    data: data,
+  };
+};
