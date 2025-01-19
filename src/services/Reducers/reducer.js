@@ -34,7 +34,11 @@ const cartReducer = (state = initialState, action) => {
       return state;
   }
 };
-
+    case REMOVE_FROM_CART:
+      return {
+        ...state,
+        cartItems: state.cartItems.filter(item => item.id !== action.payload)
+      };
 // Example usage with Redux
 const store = Redux.createStore(cartReducer);
 
