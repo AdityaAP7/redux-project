@@ -41,7 +41,11 @@ const cartReducer = (state = initialState, action) => {
       };
 // Example usage with Redux
 const store = Redux.createStore(cartReducer);
-
+    case REMOVE_FROM_CART:
+      return {
+        ...state,
+        cartItems: state.cartItems.filter(item => item.id !== action.payload)
+      };
 // Dispatching actions
 store.dispatch(addToCart({ id: 1, name: 'Product 1', price: 10 }));
 store.dispatch(addToCart({ id: 2, name: 'Product 2', price: 20 }));
