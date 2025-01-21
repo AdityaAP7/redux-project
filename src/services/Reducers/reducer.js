@@ -17,7 +17,8 @@ const removeFromCart = (itemId) => ({
   type: REMOVE_FROM_CART,
   payload: itemId
 });
-
+  </Picker>
+        </View>
 // Reducer function
 const cartReducer = (state = initialState, action) => {
   switch (action.type) {
