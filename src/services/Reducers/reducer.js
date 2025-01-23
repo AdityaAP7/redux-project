@@ -44,6 +44,8 @@ const cartReducer = (state = initialState, action) => {
         ...state,
         cartItems: state.cartItems.filter(item => item.id !== action.payload)
       };
+    cartItems: state.cartItems.filter(item => item.id !== action.payload)
+      };
 // Example usage with Redux
 const store = Redux.createStore(cartReducer);
     case REMOVE_FROM_CART:
