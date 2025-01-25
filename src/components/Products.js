@@ -8,7 +8,7 @@ function Products({products,price}) {
     <div>{products}</div>
     <p>{price}</p>
     <div style={{display:'flex',alignItems:"center",justifyContent:"center"}}>
-
+<img  style={{width:"100px",height:"100px",backgroundColor:"red",marginTop:"50px"}}/>
   <img  style={{width:"100px",height:"100px",backgroundColor:"red",marginTop:"50px"}}/>
     <div>{products}</div>
     <p>{price}</p>
