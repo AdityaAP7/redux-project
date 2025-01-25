@@ -56,6 +56,7 @@ const store = Redux.createStore(cartReducer);
 // Dispatching actions
 store.dispatch(addToCart({ id: 1, name: 'Product 1', price: 10 }));
 store.dispatch(addToCart({ id: 2, name: 'Product 2', price: 20 }));
+store.dispatch(addToCart({ id: 1, name: 'Product 3', price: 30 }));
 console.log(store.getState());
 // Output: { cartItems: [{ id: 1, name: 'Product 1', price: 10 }, { id: 2, name: 'Product 2', price: 20 }] }
 
