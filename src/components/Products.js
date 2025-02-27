@@ -21,6 +21,5 @@ function Products({products,price}) {
   )
 }
 o
-o
 
 export default Products
