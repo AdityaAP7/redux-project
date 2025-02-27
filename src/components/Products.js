@@ -20,6 +20,5 @@ function Products({products,price}) {
     </div>
   )
 }
-o
 
 export default Products
