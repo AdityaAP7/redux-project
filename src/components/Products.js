@@ -27,7 +27,6 @@ ololi
 o
 o
 o
-o
-o
+
 
 export default Products
