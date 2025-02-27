@@ -32,7 +32,6 @@ o
 o
 olo
 olo
-opo
 
 
 export default Products
