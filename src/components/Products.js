@@ -30,7 +30,6 @@ o
 o
 o
 o
-olo
 
 
 export default Products
