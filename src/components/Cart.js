@@ -1,4 +1,4 @@
-08765432109876544321import React from 'react'
+    <div style={{display:"flex", justifyContent:"flex-end",marginTop:"10px"}}> <button>Go to cart</button></div> import React from 'react'
 
 function Cart() {
   return (
